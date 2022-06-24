@@ -71,7 +71,7 @@ Citizen.CreateThread(function()
             if IsControlJustPressed(0, Key['F']) then
                 if not display then
                     display = true
-                    if ESX.GetPlayerData().job.name == 'police' then
+                    if ESX.GetPlayerData().job.name == 'police' or ESX.GetPlayerData().job.name == 'ambulance' or  ESX.GetPlayerData().job.name == 'council' or  ESX.GetPlayerData().job.name == 'mechanic' then
                         TriggerServerEvent(GenName(':sv:OffDuty'))
                     end
                     FreezeEntityPosition(playerPed, true) 

@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
-description ''
-version '1.0'
+description 'RenZer Afk'
+version '1.3'
 author 'RenZer Developer Shop'
 
 ui_page "script/html/index.html"
